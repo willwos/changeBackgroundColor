@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+#btn {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    color: #3498db;
+    transition: 0.8s;
+}
+
+#btn:hover {
+    color: #fff;
+    background-color: #3498db;
+}
